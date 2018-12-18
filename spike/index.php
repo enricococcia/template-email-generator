@@ -22,8 +22,8 @@
 	<div class="container">
 		<div class="wrapper">
 			<div class="box-download text-center">
-				<a href="https://www.enricococcia.com/spike/template-email.html">Download HTML</a>
-				<a href="https://github.com/enricococcia/template-email-generator">Download Source</a>
+				<a href="https://www.enricococcia.com/spike/template-email.html" target="_blank">Download HTML</a>
+				<a href="https://github.com/enricococcia/template-email-generator" target="_blank">Download Source</a>
 			</div>
 			<h1 class="title text-center"><b>Spike</b> Email Template Generator</h1>
 			<p class="info-text text-center">Complete the form for send the message.</p>
@@ -64,7 +64,7 @@
 					<div class="alert alert-success" style="display: none;" id="descriptionActionsSuccess"></div>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div> 
