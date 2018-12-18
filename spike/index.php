@@ -22,7 +22,7 @@
 	<div class="container">
 		<div class="wrapper">
 			<div class="box-download text-center">
-				<a href="https://www.enricococcia.com/spike/template-email.html>">Download HTML</a>
+				<a href="https://www.enricococcia.com/spike/template-email.html">Download HTML</a>
 				<a href="https://github.com/enricococcia/template-email-generator">Download Source</a>
 			</div>
 			<h1 class="title text-center"><b>Spike</b> Email Template Generator</h1>
