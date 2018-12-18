@@ -1,0 +1,52 @@
+@import "functions.less";
+@import "variables.less";
+@import "typography.less";
+
+body { 
+    background-color: @color-grey;
+    .regular;
+    color: @color-black-light; 
+} 
+
+.wrapper {
+    background-color: @color-white;
+    padding: 60px 30px;
+    @media (max-width: @screen-sm-max) {
+        padding: 15px;
+    }
+}
+
+.title {
+    margin: 0;
+    color: @color-orange;
+} 
+
+.info-text {
+    margin: 0;
+    padding-top: 20px;
+}
+
+.form-spike {
+    max-width: 620px;
+    margin: 0 auto;
+    padding-top: 60px;
+    display: block;
+    .btn-primary {
+        background-color: @color-orange;
+        border-color: @color-orange;
+        color: @color-white;
+        &:focus, &:visited, &:hover, &:active { 
+            background-color: @color-white;
+            border-color: @color-orange;
+            color: @color-orange;
+        }
+    }
+}
+
+.box-download {
+    a {
+        display: inline-block;
+        color: @color-orange;
+        padding: 40px 15px;
+    }
+}

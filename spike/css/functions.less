@@ -1,0 +1,23 @@
+@import "variables.less";
+
+.font-size(@value) {
+    @diff: @value - @font-size-base;
+    font-size: @font-size-base + (@diff / 2);
+    @media (min-width: @screen-md-min) {
+        font-size: (@font-size-base + (@diff / 3 * 2));
+    }
+    @media (min-width: @screen-lg-min) {
+      font-size: (@font-size-base + (@diff / 1));
+    }
+}
+
+.color(@color) {
+    color: @color; 
+    a {
+      color: @color;
+      &:hover, &:focus {
+          color: @color;
+      }
+    }
+}
+

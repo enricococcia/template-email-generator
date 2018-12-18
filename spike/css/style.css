@@ -1,0 +1,66 @@
+.regular {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  line-height: 1em;
+}
+.bold,
+strong,
+b {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  line-height: 1em;
+}
+.italic {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  line-height: 1em;
+  font-style: italic;
+}
+body {
+  background-color: #f4f4f4;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  line-height: 1em;
+  color: #333333;
+}
+.wrapper {
+  background-color: #ffffff;
+  padding: 60px 30px;
+}
+@media (max-width: 991px) {
+  .wrapper {
+    padding: 15px;
+  }
+}
+.title {
+  margin: 0;
+  color: #f89a34;
+}
+.info-text {
+  margin: 0;
+  padding-top: 20px;
+}
+.form-spike {
+  max-width: 620px;
+  margin: 0 auto;
+  padding-top: 60px;
+  display: block;
+}
+.form-spike .btn-primary {
+  background-color: #f89a34;
+  border-color: #f89a34;
+  color: #ffffff;
+}
+.form-spike .btn-primary:focus,
+.form-spike .btn-primary:visited,
+.form-spike .btn-primary:hover,
+.form-spike .btn-primary:active {
+  background-color: #ffffff;
+  border-color: #f89a34;
+  color: #f89a34;
+}
+.box-download a {
+  display: inline-block;
+  color: #f89a34;
+  padding: 40px 15px;
+}
